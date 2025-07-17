@@ -39,3 +39,7 @@ class FullyConnected:
     @property
     def gradient_weights(self):
         return self._gradient_weights
+
+    @gradient_weights.setter
+    def gradient_weights(self, value):
+        self._gradient_weights = value
